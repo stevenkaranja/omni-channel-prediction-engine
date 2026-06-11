@@ -12,7 +12,7 @@ A luxury retail group operating 400+ locations across EU, NA, and APAC was losin
 
 ## The Solution
 
-A multi-horizon demand forecasting system built on a custom **Transformer encoder** trained on 90-day rolling POS windows to predict 30-day forward demand per SKU per location. The model ingests real-time transaction streams, applies learned seasonality patterns, and produces probabilistic forecasts with confidence intervals — enabling procurement teams to make data-driven reorder decisions.
+A multi-horizon demand forecasting system built on a custom **Transformer encoder** trained on 90-day rolling POS windows to predict 30-day forward demand per SKU per location. The model ingests real-time transaction streams, applies learned seasonality patterns, and produces probabilistic forecasts with confidence intervals enabling procurement teams to make data-driven reorder decisions.
 
 ---
 
