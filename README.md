@@ -10,3 +10,11 @@ integrated with real-time POS data streams and AWS SageMaker.
 
 ## Stack
 Python · PyTorch · AWS SageMaker · Snowflake · Apache Kafka
+
+## Validation Results (May 2024)
+
+| Metric       | Baseline (manual) | Model     |
+|--------------|-------------------|-----------|
+| WAPE         | 33%               | **6%**    |
+| Forecast Acc | 67%               | **94%**   |
+| Dead-stock   | $4M/yr            | **$1.6M** |
