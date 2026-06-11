@@ -1,0 +1,27 @@
+model:
+  d_model: 256
+  nhead: 8
+  num_encoder_layers: 6
+  dropout: 0.1
+  seq_len: 90
+  pred_horizon: 30
+
+training:
+  batch_size: 64
+  max_epochs: 100
+  learning_rate: 0.0001
+  early_stopping_patience: 10
+
+sagemaker:
+  instance_type: ml.p3.2xlarge
+  instance_count: 1
+  output_path: s3://omni-channel-models/
+
+snowflake:
+  database: RETAIL_DW
+  warehouse: FORECAST_WH
+  schema: POS_DATA
+
+locations:
+  total: 400
+  regions: [EU, NA, APAC]
